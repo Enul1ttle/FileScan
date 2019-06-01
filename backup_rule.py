@@ -25,16 +25,16 @@ backup_rule = {
                     "web", "webroot", "WebRoot", "website", "bin", "bbs", "shop", "www", "wwww",
                     1, 2, 3, 4, 5, 6, 7, 8, 9,
                     "www1", "www2", "www3", "www4", "default", "log", "logo", "kibana", "elk", "weblog",
-                    "mysql", "ftp", "FTP", "MySQL", "redis", "Redis",
+                    "mysql", "ftp", "FTP", "MySQL", "redis", "Redis","sa",
                     "cgi", "php", "jsp",
                     "access", "error", "logs", "other_vhosts_access",
-                    "database", "sql",
+                    "database", "sql","备份","vpn","proxy",
                 ],
                 "rule_false": "fuckcar10240x4d53"
             }],
             # 后缀
             "filename": [
-                "rar", "zip", "tar.gz", "tar.gtar", "tar", "tgz", "tar.bz", "tar.bz2", "bz", "bz2", "boz", "3gp", "gz2"
+               "lst","doc","config","cfg","tmp","log","inc","conf","old","doc","mdb","sql","bak","txt","rar", "zip", "tar.gz", "tar.gtar", "tar", "tgz", "tar.bz", "tar.bz2", "bz", "bz2", "boz", "3gp", "gz2"
             ],
             # 判断是否存在
             "result": {
